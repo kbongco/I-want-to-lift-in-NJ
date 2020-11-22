@@ -6,7 +6,9 @@ export default function Header() {
   return (
     <header>
       <div className='header-content'>
-        <h1 className='want'>I want to lift in NJ </h1>
+        <Link exact to='/'>
+          <h1 className='want'>I want to lift in NJ </h1>
+          </Link>
       </div>
       <nav className='nav'>
         <ul className='navLinks'>

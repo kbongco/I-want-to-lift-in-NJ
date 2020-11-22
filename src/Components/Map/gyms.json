@@ -1,0 +1,124 @@
+{
+  "businesses":[
+    {
+      "id": "YBGz1Ku4sVoraesj4U6-pQ",
+      "alias": "adelante-barbell-club-union",
+      "name": "Adelante Barbell Club",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/gce5OZ8FTeQtQXlrySLhfA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/adelante-barbell-club-union?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+      "review_count": 12,
+      "categories": [
+          {
+              "alias": "gyms",
+              "title": "Gyms"
+          }
+      ],
+      "rating": 5.0,
+      "coordinates": {
+          "latitude": 40.717989,
+          "longitude": -74.28552
+      },
+      "transactions": [],
+      "location": {
+          "address1": "2229 Springfield Ave",
+          "address2": "",
+          "address3": null,
+          "city": "Union",
+          "zip_code": "07088",
+          "country": "US",
+          "state": "NJ",
+          "display_address": [
+              "2229 Springfield Ave",
+              "Union, NJ 07088"
+          ]
+      },
+      "phone": "+19086867103",
+      "display_phone": "(908) 686-7103",
+      "distance": 24.94552706128284
+  },
+  {
+    "id": "AeKxJV-4NQXdEvbE1yp01A",
+    "alias": "whippany-athletic-club-whippany-2",
+    "name": "Whippany Athletic Club",
+    "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/saJ9sjM9c58WUIXaCA6rTw/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/whippany-athletic-club-whippany-2?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+    "review_count": 5,
+    "categories": [
+        {
+            "alias": "gyms",
+            "title": "Gyms"
+        },
+        {
+            "alias": "boxing",
+            "title": "Boxing"
+        },
+        {
+            "alias": "healthtrainers",
+            "title": "Trainers"
+        }
+    ],
+    "rating": 5.0,
+    "coordinates": {
+        "latitude": 40.8256015551826,
+        "longitude": -74.3916767089844
+    },
+    "transactions": [],
+    "location": {
+        "address1": "156 Algonquin Pkwy",
+        "address2": null,
+        "address3": null,
+        "city": "Whippany",
+        "zip_code": "07981",
+        "country": "US",
+        "state": "NJ",
+        "display_address": [
+            "156 Algonquin Pkwy",
+            "Whippany, NJ 07981"
+        ]
+    },
+    "phone": "+19738872496",
+    "display_phone": "(973) 887-2496",
+    "distance": 39.708042840301424
+},
+{
+  "id": "DXuL3vFNxsWEs2iVI7W4kA",
+  "alias": "iron-arena-powerlifting-and-performance-north-bergen",
+  "name": "Iron Arena Powerlifting & Performance",
+  "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/R3vkns-gTxBj89zVkwOVPQ/o.jpg",
+  "is_closed": false,
+  "url": "https://www.yelp.com/biz/iron-arena-powerlifting-and-performance-north-bergen?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+  "review_count": 5,
+  "categories": [
+      {
+          "alias": "healthtrainers",
+          "title": "Trainers"
+      }
+  ],
+  "rating": 5.0,
+  "coordinates": {
+      "latitude": 40.78323,
+      "longitude": -74.0357499
+  },
+  "transactions": [],
+  "location": {
+      "address1": "4201 Tonnelle Ave",
+      "address2": null,
+      "address3": "",
+      "city": "North Bergen",
+      "zip_code": "07047",
+      "country": "US",
+      "state": "NJ",
+      "display_address": [
+          "4201 Tonnelle Ave",
+          "North Bergen, NJ 07047"
+      ]
+  },
+  "phone": "",
+  "display_phone": "",
+  "distance": 51.489883704882374
+}
+
+  ]
+}
