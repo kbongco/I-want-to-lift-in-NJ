@@ -18,9 +18,9 @@ export default function Map() {
     bearing: 0,
     pitch: 0,
   });
-  const [popUp, updatePopUp] = useState({
-    gym: null,
-  });
+
+  const [selectedGym, setSelectedGym] = useState(null)
+
   return (
     <MapGL
       {...viewport}
@@ -35,10 +35,31 @@ export default function Map() {
         <Marker
           latitude={parseFloat(gym.coordinates.latitude)}
           longitude={parseFloat(gym.coordinates.longitude)}>
-          <div>GYM</div>
+          {/* <div>GYM</div> */}
+          <button className='marker-btn' onClick={(e) => {
+            e.preventDefault();
+            setSelectedGym(gym)
+          }}>
+            <img src="./Assets/barbel.svg" alt='barbell-icon'/>
+          </button>
         </Marker>
       ))}
 
+      {selectedGym ? (
+        <Popup
+          latitude={selectedGym.coordinates.latitude}
+          longitude={selectedGym.coordinates.longitude}
+          onClose={() => {
+            setSelectedGym(null)
+          }}
+        >
+          <div>
+            <h5>{selectedGym.name}</h5>
+            <h5>{selectedGym.location.address1}</h5>
+            <h5>{selectedGym.location.city},{selectedGym.location.state}</h5>
+          </div>
+        </Popup>
+      ) : null }
     </MapGL>
   );
 

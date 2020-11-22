@@ -118,6 +118,142 @@
   "phone": "",
   "display_phone": "",
   "distance": 51.489883704882374
+},
+{
+  "id": "pORFOLl_aulnN5f5jyycqA",
+  "alias": "savage-city-strength-hillsborough-township",
+  "name": "Savage City Strength",
+  "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/A1DeWZQymnqAYncH0Pqd_w/o.jpg",
+  "is_closed": false,
+  "url": "https://www.yelp.com/biz/savage-city-strength-hillsborough-township?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+  "review_count": 1,
+  "categories": [
+      {
+          "alias": "gyms",
+          "title": "Gyms"
+      },
+      {
+          "alias": "healthtrainers",
+          "title": "Trainers"
+      },
+      {
+          "alias": "brazilianjiujitsu",
+          "title": "Brazilian Jiu-jitsu"
+      }
+  ],
+  "rating": 5.0,
+  "coordinates": {
+      "latitude": 40.530551,
+      "longitude": -74.627677
+  },
+  "transactions": [],
+  "location": {
+      "address1": "216 US Hwy 206",
+      "address2": "Ste 13",
+      "address3": "",
+      "city": "Hillsborough Township",
+      "zip_code": "08844",
+      "country": "US",
+      "state": "NJ",
+      "display_address": [
+          "216 US Hwy 206",
+          "Ste 13",
+          "Hillsborough Township, NJ 08844"
+      ]
+  },
+  "phone": "+17324299526",
+  "display_phone": "(732) 429-9526",
+  "distance": 24.561745195776112
+},
+{
+  "id": "h9a4ncyrFUtvZ_oqatExMQ",
+  "alias": "jersey-city-barbell-and-lmbg-crossfit-jersey-city-3",
+  "name": "Jersey City Barbell & LMBG CrossFit",
+  "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/9PpI6GXMLtt32ri3-r5FHw/o.jpg",
+  "is_closed": false,
+  "url": "https://www.yelp.com/biz/jersey-city-barbell-and-lmbg-crossfit-jersey-city-3?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+  "review_count": 16,
+  "categories": [
+      {
+          "alias": "bootcamps",
+          "title": "Boot Camps"
+      },
+      {
+          "alias": "healthtrainers",
+          "title": "Trainers"
+      },
+      {
+          "alias": "circuittraininggyms",
+          "title": "Circuit Training Gyms"
+      }
+  ],
+  "rating": 4.0,
+  "coordinates": {
+      "latitude": 40.715897,
+      "longitude": -74.069335
+  },
+  "transactions": [],
+  "location": {
+      "address1": "517 Communipaw Ave",
+      "address2": "",
+      "address3": null,
+      "city": "Jersey City",
+      "zip_code": "07304",
+      "country": "US",
+      "state": "NJ",
+      "display_address": [
+          "517 Communipaw Ave",
+          "Jersey City, NJ 07304"
+      ]
+  },
+  "phone": "+12016007745",
+  "display_phone": "(201) 600-7745",
+  "distance": 28.259456136480516
+},
+{
+  "id": "INFxHyKoMpTCs6LUOXNGlg",
+  "alias": "pure-focus-sports-club-brick",
+  "name": "Pure Focus Sports Club",
+  "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/ON6y4yig1UlJhkq1wXs9Ww/o.jpg",
+  "is_closed": false,
+  "url": "https://www.yelp.com/biz/pure-focus-sports-club-brick?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+  "review_count": 11,
+  "categories": [
+      {
+          "alias": "healthtrainers",
+          "title": "Trainers"
+      },
+      {
+          "alias": "gyms",
+          "title": "Gyms"
+      },
+      {
+          "alias": "sports_clubs",
+          "title": "Sports Clubs"
+      }
+  ],
+  "rating": 4.0,
+  "coordinates": {
+      "latitude": 40.074434,
+      "longitude": -74.108515
+  },
+  "transactions": [],
+  "location": {
+      "address1": "2055 Rt 88",
+      "address2": "",
+      "address3": "",
+      "city": "Brick",
+      "zip_code": "08724",
+      "country": "US",
+      "state": "NJ",
+      "display_address": [
+          "2055 Rt 88",
+          "Brick, NJ 08724"
+      ]
+  },
+  "phone": "+17328405393",
+  "display_phone": "(732) 840-5393",
+  "distance": 111.02867153562772
 }
 
   ]
