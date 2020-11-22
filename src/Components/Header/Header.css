@@ -13,3 +13,12 @@ header {
   text-decoration:none;
   color:white;
 }
+
+header{
+  display:flex;
+}
+
+.header-content{
+  flex-wrap:wrap;
+}
+

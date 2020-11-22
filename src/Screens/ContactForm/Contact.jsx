@@ -25,6 +25,7 @@ export default function Contact() {
     <div className='form'>
       <h1>Contact me!</h1>
       <p>Got some feedback about the design? Want a gym to be added on here? or maybe you just want to say hi? Drop an email down below and I'll get back to you ASAP!</p>
+      <h1>Form is still under construction :) </h1>
       <form className='contact' onSubmit={sent}>
         <label htmlFor='Name'>Name</label><br/>
         <input 

@@ -1,17 +1,19 @@
 import React, { useState, useEffect } from 'react';
-import ReactMapGL, { Marker, Popup } from 'react-map-gl';
+import { Marker, Popup } from 'react-map-gl';
 import mapboxgl from 'mapbox-gl';
 import { render } from 'react-dom';
-import MapGL from 'react-map-gl'
+import MapGL, { GeolocateControl } from 'react-map-gl'
 import * as getGyms from './gyms.json'
 
 
 const MAPBOX_TOKEN = process.env.REACT_APP_MAPBOX_KEY
 
-export default function Map() {
+export default function Map(props) {
 
 
   const [viewport, setViewport] = useState({
+    width: '100vw',
+    height: '100vh',
     latitude: 40.71828,
     longitude: -74.28544,
     zoom: 14,
@@ -20,6 +22,8 @@ export default function Map() {
   });
 
   const [selectedGym, setSelectedGym] = useState(null)
+
+
 
   return (
     <MapGL
@@ -40,7 +44,7 @@ export default function Map() {
             e.preventDefault();
             setSelectedGym(gym)
           }}>
-            <img src="./Assets/barbel.svg" alt='barbell-icon'/>
+            <img src="/barbel.svg" alt='barbell-icon'/>
           </button>
         </Marker>
       ))}
@@ -59,7 +63,10 @@ export default function Map() {
             <h5>{selectedGym.location.city},{selectedGym.location.state}</h5>
           </div>
         </Popup>
-      ) : null }
+      ) : null}
+      
+
+      
     </MapGL>
   );
 
