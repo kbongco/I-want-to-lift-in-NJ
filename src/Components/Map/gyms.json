@@ -254,6 +254,51 @@
   "phone": "+17328405393",
   "display_phone": "(732) 840-5393",
   "distance": 111.02867153562772
+},
+{
+  "id": "Nks4MeRJBLWpCoNgtZnZVA",
+  "alias": "impact-zone-fitness-and-sports-performance-norwood-2",
+  "name": "Impact Zone Fitness and Sports Performance",
+  "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/L7Scij63dh5YBzHRbQ0uKg/o.jpg",
+  "is_closed": false,
+  "url": "https://www.yelp.com/biz/impact-zone-fitness-and-sports-performance-norwood-2?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+  "review_count": 11,
+  "categories": [
+      {
+          "alias": "gyms",
+          "title": "Gyms"
+      },
+      {
+          "alias": "healthtrainers",
+          "title": "Trainers"
+      },
+      {
+          "alias": "cardioclasses",
+          "title": "Cardio Classes"
+      }
+  ],
+  "rating": 4.0,
+  "coordinates": {
+      "latitude": 40.991476,
+      "longitude": -73.951856
+  },
+  "transactions": [],
+  "location": {
+      "address1": "335 Chestnut St",
+      "address2": "",
+      "address3": "",
+      "city": "Norwood",
+      "zip_code": "07648",
+      "country": "US",
+      "state": "NJ",
+      "display_address": [
+          "335 Chestnut St",
+          "Norwood, NJ 07648"
+      ]
+  },
+  "phone": "+12017751025",
+  "display_phone": "(201) 775-1025",
+  "distance": 798.8453570426525
 }
 
   ]
