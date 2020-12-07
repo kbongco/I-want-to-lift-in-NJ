@@ -23,6 +23,13 @@ export default function Map(props) {
 
   const [selectedGym, setSelectedGym] = useState(null)
 
+  const handleGeolocation = (newViewport) => {
+    props.setLocation({
+      lat: newViewport.latitude,
+      lon: newViewport.longitude
+    });
+    setViewport(newViewport);
+  }
 
 
   return (
@@ -58,12 +65,20 @@ export default function Map(props) {
           }}
         >
           <div>
-            <h5>{selectedGym.name}</h5>
-            <h5>{selectedGym.location.address1}</h5>
-            <h5>{selectedGym.location.city},{selectedGym.location.state}</h5>
+            <p>{selectedGym.name}</p>
+            <p>{selectedGym.location.address1}</p>
+            <p>{selectedGym.location.city},{selectedGym.location.state}</p>
+            <p>IG:{selectedGym.instagram}</p>
           </div>
         </Popup>
+        
       ) : null}
+
+      <GeolocateControl 
+        trackUserLocation={true}
+        onViewportChange={(newViewport) => handleGeolocation(newViewport)}
+        className='geolocate-control'
+      />
       
 
       

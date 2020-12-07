@@ -1,5 +1,6 @@
 import axios from 'axios';
 import React, { useState } from 'react';
+import './Contact.css'
 
 export default function Contact() {
  
@@ -47,8 +48,8 @@ export default function Contact() {
           value={name}
         />
         <br></br>
-
-        <label htmlFor="email">email</label>
+        <br/>
+        <label htmlFor="email">email</label><br/>
         <input
           type="url"
           name="url"
@@ -58,7 +59,7 @@ export default function Contact() {
         />
         <br></br>
 
-        <label htmlFor='subject'>subject</label>
+        <label htmlFor='subject'>subject</label><br/>
         <input
           type='text'
           id='subject'
@@ -67,8 +68,8 @@ export default function Contact() {
         />
         <br />
         
-        <label htmlFor='message'>message</label>
-        <input 
+        <label htmlFor='message'>message</label><br/>
+        <textarea
           type='textarea'
           id='message'
           onChange={(e) => setMessage(e.target.value)}

@@ -32,7 +32,7 @@ export default function About() {
         <br />
         <p>
           Also, this is technically a "mobile" app, so please view on your
-          various mobile devices for the best/optimized quality.
+          various mobile devices for the best/optimized quality. 
         </p>
       </div>
     </>

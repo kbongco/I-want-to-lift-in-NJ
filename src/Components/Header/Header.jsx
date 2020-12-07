@@ -1,28 +1,19 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './Header.css'
+import { Navbar, Nav, NavLink } from 'react-bootstrap'
+// import './Header.css'
+import "bootstrap/dist/css/bootstrap.css";
 
 export default function Header() {
   return (
-    <header>
-      <div className='header-content'>
-        <Link exact to='/'>
-          <h1 className='want'>I want to lift in NJ </h1>
-          </Link>
-      </div>
-      <nav className='nav'>
-        <ul className='navLinks'>
-          <li className='page-links'>
-            <Link exact to='/about'>
-              About 
-            </Link></li>
-          <li className='page-links'>
-            <Link exact to='/contact'>
-              Contact to Add!
-            </Link>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <>
+      <Navbar bg='dark' variant='dark'>
+        <Navbar.Brand href='/'>I want to lift in NJ</Navbar.Brand>
+        <Nav className='mr-auto'>
+        <Nav.Link href='/about'>About</Nav.Link>
+        <Nav.Link href='/contact'>Contact me!</Nav.Link>
+        </Nav>
+      </Navbar>
+      </>
   )
 }
