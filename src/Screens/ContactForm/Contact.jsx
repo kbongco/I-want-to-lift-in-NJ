@@ -72,6 +72,8 @@ export default function Contact() {
         <textarea
           type='textarea'
           id='message'
+          cols='30'
+          rows='5'
           onChange={(e) => setMessage(e.target.value)}
           value={message}
           />

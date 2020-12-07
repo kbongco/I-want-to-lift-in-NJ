@@ -15,8 +15,7 @@ function App() {
       <Header />
       {/* <h1>Oh no</h1> */}
       <Route path exact='/'>
-        <Map
-          location={location}/>
+        <Map/>
       </Route>
       <Route path='/about'>
         <About />
