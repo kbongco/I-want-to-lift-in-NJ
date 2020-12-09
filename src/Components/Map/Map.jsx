@@ -76,7 +76,7 @@ export default function Map(props) {
 
       <GeolocateControl 
         trackUserLocation={true}
-        onViewportChange={(newViewport) => handleGeolocation(newViewport)}
+        positionOptions={{enabledHigAccurage:true}}
         className='geolocate-control'
       />
       

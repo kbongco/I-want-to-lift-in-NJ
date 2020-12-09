@@ -16,11 +16,10 @@ export default function About() {
         </p>
 
         <p>What determines what gets into the finder?</p>
-        <p>Yes, Yes I know there are a lot of "commercial" gyms in the area. But this 
-        is specifically for powerlifting/weightlifting friendly gyms. How I determine
-        what gets listed, is based on pretty much on the people I follow on IG and where
-        they train at. Not the best critera, but if I see someone I know who's a powerlifter and training at the gym that's 
-        enough criteria for me. 
+        <p>Yeah, I am aware of commercial gyms and stuff. However, this finder is specifically for trying to find 
+         a powerlifting/weightlifting friendly gym. That being said, if a gym is specialized for these two sports 
+          or its a "commercial" gym with a specific section dedicated to powerlifting or weightlifting it makes it 
+          onto this list. 
          
         </p>
         <p>My gym isn't listed, how do I get in contact with you?</p>
