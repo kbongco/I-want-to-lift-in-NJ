@@ -46,7 +46,6 @@ export default function Map(props) {
         <Marker
           latitude={parseFloat(gym.coordinates.latitude)}
           longitude={parseFloat(gym.coordinates.longitude)}>
-          {/* <div>GYM</div> */}
           <button className='marker-btn' onClick={(e) => {
             e.preventDefault();
             setSelectedGym(gym)
